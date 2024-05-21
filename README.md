@@ -1,6 +1,6 @@
 # MC Evaluation
 
-This is the repo for the paper Multiple-Choice Questions are Efficient and Robust LLM Evaluators.
+This is the repo for the paper [Multiple-Choice Questions are Efficient and Robust LLM Evaluators](https://arxiv.org/abs/2405.11966).
 
 ## Data
 
@@ -35,3 +35,15 @@ python run_mc.py --dataset gsm8k --model google/flan-t5-small
 ```
 
 where the dataset can be either of `gsm8k`, `math`, and `pythonio`. The model argument can be a model name on Hugging Face, or a local directory.
+
+## Citation
+```
+@misc{zhang2024multiplechoice,
+      title={Multiple-Choice Questions are Efficient and Robust LLM Evaluators}, 
+      author={Ziyin Zhang and Lizhen Xu and Zhaokun Jiang and Hongkun Hao and Rui Wang},
+      year={2024},
+      eprint={2405.11966},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
